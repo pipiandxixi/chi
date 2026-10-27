@@ -1,6 +1,6 @@
 package domain
 
-func NormalizeAmount(value int) int {
+func NormalizeAmount(value int, tenant string) int {
     if value < 0 {
         return 0
     }
